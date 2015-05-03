@@ -1,0 +1,26 @@
+main {
+	width: 70%;
+	margin: 0 auto;
+}
+.primary-image {
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+}
+ul {
+	text-align: center;
+	padding-left: 0;
+}
+
+.primary-content, .secondary-content {
+	float: left;
+	width: 50%;
+}
+.clearfix:before,
+.clearfix:after{
+	content:"";
+	display: table;
+
+}
